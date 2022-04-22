@@ -52,7 +52,7 @@ const pizza = {
 
 //CODE HERE
 
-console.log(pizza.popularity);
+// console.log(pizza.popularity);
 
 /*
     Second, log the second tag in your pizza's
@@ -63,7 +63,7 @@ console.log(pizza.popularity);
 
 //CODE HERE
 
-console.log(pizza.tags[1]);
+// console.log(pizza.tags[1]);
 
 /*
     Third, destructure the price off of the
@@ -74,9 +74,9 @@ console.log(pizza.tags[1]);
 
 //CODE HERE
 
-const {price} = pizza
+// const {price} = pizza
 
-console.log(price);
+// console.log(price);
 
 /*
     Fourth, and last, destructure the category
@@ -87,8 +87,8 @@ console.log(price);
 
 //CODE HERE
 
-const {category} = pizza
-console.log(category);
+// const {category} = pizza
+// console.log(category);
 
 //////////////////PROBLEM 3////////////////////
 /* 
@@ -103,6 +103,51 @@ console.log(category);
 */
 
 //CODE HERE
+
+const foodArr = [
+    {
+        name:'Peperoni',
+        price:15.99,
+        category:'Entree',
+        popularity:1,
+        rating:9,
+        tags: ['Simple', 'Classic', 'Popular','Perperoni']
+    },
+    {
+        name:'Cheese',
+        price:13.99,
+        category:'Entree',
+        popularity:2,
+        rating:9,
+        tags: ['Basic', 'Mozzarella', 'Simple']
+    },
+    {
+        name:'Hawaiian',
+        price:18.99,
+        category:'Entree',
+        popularity:3,
+        rating:8,
+        tags: ['Pineapple', 'Hawaiian', 'Belongs', 'Ham', 'Perperoni']
+    },
+    {
+        name:'Veggie',
+        price:19.99,
+        category:'Entree',
+        popularity:6,
+        rating:7,
+        tags: ['Veggies', 'Healthy', 'Spinich', 'Artichoke', 'Low-fat', 'Vegetarian']
+    },
+    {
+        name:'Chicken',
+        price:20.99,
+        category:'Entree',
+        popularity:5,
+        rating:8,
+        tags: ['Meat', 'Protein', 'Chicken', 'Bacon', 'White-sauce']
+    },
+    
+]
+
 
 
 
