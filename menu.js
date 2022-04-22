@@ -52,6 +52,7 @@ const pizza = {
 
 //CODE HERE
 
+console.log(pizza.popularity);
 
 /*
     Second, log the second tag in your pizza's
@@ -62,6 +63,7 @@ const pizza = {
 
 //CODE HERE
 
+console.log(pizza.tags[1]);
 
 /*
     Third, destructure the price off of the
@@ -72,6 +74,9 @@ const pizza = {
 
 //CODE HERE
 
+const {price} = pizza
+
+console.log(price);
 
 /*
     Fourth, and last, destructure the category
@@ -82,6 +87,8 @@ const pizza = {
 
 //CODE HERE
 
+const {category} = pizza
+console.log(category);
 
 //////////////////PROBLEM 3////////////////////
 /* 
