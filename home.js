@@ -22,9 +22,11 @@
 */
 
 //CODE HERE
+ const greetUser = (username) => {
+    return `Welcome back, ${username}.`
+ }
 
-
-
+// console.log(greetUser('Andrew'));
 
 
 //////////////////PROBLEM 2////////////////////
@@ -51,7 +53,18 @@ const deliveryAreaZipCodes = [85205, 85204, 85203, 85213, 85206]
 
 //CODE HERE
 
+const canWeDeliver = (zipCode) => {
+    const zipCodeNum = Number(zipCode)
+    for(i = 0; i < deliveryAreaZipCodes.length; i++){
+        if (deliveryAreaZipCodes[i] !== zipCodeNum){
+            return 'Sorry, you are outside our delivery zone.'
+        } else if (deliveryAreaZipCodes[i] === zipCodeNum){
+            return 'You are in our delivery zone, you may order for delivery.'
+        }
+    }
+}
 
+console.log(canWeDeliver(85103))
 
 /* 
     Problem 2 Continued
