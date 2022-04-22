@@ -145,7 +145,6 @@ const foodArr = [
         rating:8,
         tags: ['Meat', 'Protein', 'Chicken', 'Bacon', 'White-sauce']
     },
-    
 ]
 
 
@@ -165,8 +164,12 @@ const foodArr = [
 
 //CODE HERE
 
-// const filteredFood = foodArr.filter(/* CALLBACK HERE */)
 
+const filteredFood = foodArr.filter(function(tags){
+    return tags === filteredFood
+});
+
+console.log(filteredFood('Perperoni'))
 
 
 //////////////////PROBLEM 5////////////////////
