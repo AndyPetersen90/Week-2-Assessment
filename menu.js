@@ -32,6 +32,14 @@
 
 //CODE HERE
 
+const pizza = {
+    name:'Meat-lovers',
+    price:20.99,
+    category:'Entree',
+    popularity:4,
+    rating:8,
+    tags: ['Meat', 'Protein', 'Sausage', 'Bacon', 'Ham', 'Perperoni']
+}
 
 
 //////////////////PROBLEM 2////////////////////

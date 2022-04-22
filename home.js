@@ -64,7 +64,7 @@ const canWeDeliver = (zipCode) => {
     }
 }
 
-console.log(canWeDeliver(85103))
+// console.log(canWeDeliver(85103))
 
 /* 
     Problem 2 Continued
@@ -85,6 +85,15 @@ console.log(canWeDeliver(85103))
 
 // CODE HERE
 
+const canWeDeliverTwo = (zipCode) => {
+    if (deliveryAreaZipCodes.includes(zipCode)){
+        return 'You are in our delivery zone, you may order for delivery.'
+    } else {
+        return 'Sorry, you are outside our delivery zone.'
+    }
+}
+
+// console.log(canWeDeliverTwo(85234))
 
 //////////////////PROBLEM 3////////////////////
 /* 
@@ -121,8 +130,9 @@ const deals = [
 
 //CODE HERE
 
+deals[0].replace('10% off!') //lost moving on for now//
 
-
+console.log(deals);
 /*
     The restaurant is going to continue its
     family deal for another month. 
