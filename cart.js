@@ -85,6 +85,12 @@ console.log(calcFinalPrice(25, 4, .1));
 
 /*
     TEXT ANSWER HERE
+    First Name: string, for identification
+    Last Name: string, for identification
+    Email: string, for recepts, promotions, and order updates
+    Phone: number, for calling back, pulling up account when number calls in.
+    Address: string, for deliverys
+    Card: number, saved card for faster ordering of food.
 
 */
 
@@ -94,3 +100,12 @@ console.log(calcFinalPrice(25, 4, .1));
 */
 
 //CODE HERE
+
+const Customer = {
+    firstName: 'Andrew',
+    lastName: 'Petersen',
+    Email: 'fespetersen1990@gmail.com',
+    Phone: 123-456-7890,
+    Address: '1234 south pizza lane',
+    Card: 1234-5678-9012-3456
+};
